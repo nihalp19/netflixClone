@@ -1,0 +1,90 @@
+.loginScreen{
+    position: relative;
+    background-image: url("https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/netflix-india.jpeg?ssl=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__logo{
+    position: fixed;
+    left: 0;
+    width: 140px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen__button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50915;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.loginScreen__gradient{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0)60%,rgba(0,0,0,0.8) 100%);
+}
+
+.loginScreen__body > h1 {
+    font-size: 3.125 rem;
+    margin-bottom: 20px;
+}
+.loginScreen__body > h2 {
+    font-size: 2 rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body > h3 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.loginScreen__body{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+   text-align: center;
+}
+
+.loginScreen__input{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.loginScreen__input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 100%;
+    width: 40%;
+    border: none;
+    max-width: 800px;
+}
+
+.loginScreen__getStarted{
+    height: 100%;
+    padding: 10px;
+    font-size: 0.83rem; 
+    border: none;
+    outline: none;
+    background-color: #e50915;
+    color: #fff;
+}
